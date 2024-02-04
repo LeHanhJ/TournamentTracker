@@ -49,12 +49,32 @@
             PrizesListBox = new ListBox();
             SuspendLayout();
             // 
+            // TournamentPlayersListBox
+            // 
+            TournamentPlayersListBox.BorderStyle = BorderStyle.FixedSingle;
+            TournamentPlayersListBox.FormattingEnabled = true;
+            TournamentPlayersListBox.ItemHeight = 30;
+            TournamentPlayersListBox.Location = new Point(530, 99);
+            TournamentPlayersListBox.Name = "TournamentPlayersListBox";
+            TournamentPlayersListBox.Size = new Size(383, 182);
+            TournamentPlayersListBox.TabIndex = 21;
+            // 
+            // PrizesListBox
+            // 
+            PrizesListBox.BorderStyle = BorderStyle.FixedSingle;
+            PrizesListBox.FormattingEnabled = true;
+            PrizesListBox.ItemHeight = 30;
+            PrizesListBox.Location = new Point(530, 343);
+            PrizesListBox.Name = "PrizesListBox";
+            PrizesListBox.Size = new Size(383, 182);
+            PrizesListBox.TabIndex = 24;
+            // 
             // headerLabel
             // 
             headerLabel.AutoSize = true;
             headerLabel.Font = new Font("Segoe UI Light", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             headerLabel.ForeColor = Color.FromArgb(51, 153, 255);
-            headerLabel.Location = new Point(40, 50);
+            headerLabel.Location = new Point(40, 59);
             headerLabel.Name = "headerLabel";
             headerLabel.Size = new Size(333, 50);
             headerLabel.TabIndex = 1;
@@ -83,7 +103,7 @@
             // 
             // teamOneScoreValue
             // 
-            teamOneScoreValue.Location = new Point(52, 166);
+            teamOneScoreValue.Location = new Point(52, 175);
             teamOneScoreValue.Name = "teamOneScoreValue";
             teamOneScoreValue.Size = new Size(373, 35);
             teamOneScoreValue.TabIndex = 13;
@@ -93,7 +113,7 @@
             TournamentName.AutoSize = true;
             TournamentName.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TournamentName.ForeColor = Color.FromArgb(51, 153, 255);
-            TournamentName.Location = new Point(40, 126);
+            TournamentName.Location = new Point(40, 135);
             TournamentName.Name = "TournamentName";
             TournamentName.Size = new Size(236, 37);
             TournamentName.TabIndex = 12;
@@ -161,16 +181,6 @@
             CreatePrizeButton.UseVisualStyleBackColor = true;
             CreatePrizeButton.Click += button1_Click;
             // 
-            // TournamentPlayersListBox
-            // 
-            TournamentPlayersListBox.BorderStyle = BorderStyle.FixedSingle;
-            TournamentPlayersListBox.FormattingEnabled = true;
-            TournamentPlayersListBox.ItemHeight = 30;
-            TournamentPlayersListBox.Location = new Point(530, 99);
-            TournamentPlayersListBox.Name = "TournamentPlayersListBox";
-            TournamentPlayersListBox.Size = new Size(383, 182);
-            TournamentPlayersListBox.TabIndex = 21;
-            // 
             // Tournament
             // 
             Tournament.AutoSize = true;
@@ -223,16 +233,6 @@
             PrizesLabel.Size = new Size(187, 37);
             PrizesLabel.TabIndex = 25;
             PrizesLabel.Text = "Team / Players";
-            // 
-            // PrizesListBox
-            // 
-            PrizesListBox.BorderStyle = BorderStyle.FixedSingle;
-            PrizesListBox.FormattingEnabled = true;
-            PrizesListBox.ItemHeight = 30;
-            PrizesListBox.Location = new Point(530, 343);
-            PrizesListBox.Name = "PrizesListBox";
-            PrizesListBox.Size = new Size(383, 182);
-            PrizesListBox.TabIndex = 24;
             // 
             // CreateTournamentButton
             // 

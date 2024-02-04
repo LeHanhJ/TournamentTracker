@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class CreateTeamForm : Form
+    public partial class AddNewMember : Form
     {
-        public CreateTeamForm()
+        public AddNewMember()
         {
             InitializeComponent();
+        }
+
+        private void LastNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PhoneNumberLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
