@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {}
+    "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {
+    "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
         "projectName": "TrackerUI",
-        "projectPath": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "projectPath": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerUI\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TournamentTracker\\TrackerUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
