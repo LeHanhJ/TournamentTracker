@@ -54,6 +54,7 @@
             headerLabel.Size = new Size(224, 50);
             headerLabel.TabIndex = 0;
             headerLabel.Text = "Tournament: ";
+            headerLabel.Click += headerLabel_Click;
             // 
             // tournamentName
             // 
@@ -197,6 +198,7 @@
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(885, 558);
             Controls.Add(scoreButton);
             Controls.Add(versusLabel);

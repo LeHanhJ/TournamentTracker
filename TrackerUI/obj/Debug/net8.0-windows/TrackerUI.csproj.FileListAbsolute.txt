@@ -1,0 +1,17 @@
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.exe
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.deps.json
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.runtimeconfig.json
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerUI.pdb
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.TournamentViewerForm.resources
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AssemblyInfo.cs
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.sourcelink.json
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\refint\TrackerUI.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.pdb
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.genruntimeconfig.cache
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\ref\TrackerUI.dll
