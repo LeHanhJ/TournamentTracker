@@ -1,4 +1,5 @@
-﻿namespace TrackerUI
+﻿
+namespace TrackerUI
 {
     partial class AddNewMember
     {
@@ -289,6 +290,16 @@
             groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void EmailValue_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void EmailLabel_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
