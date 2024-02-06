@@ -7,7 +7,11 @@
     <Compile Update="CreateTournamentForm.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="TournamentDashboardForm.cs">
+=======
+    <Compile Update="CreatePrizeForm.cs">
+>>>>>>> 6ce743048177686d42d3c0b65fcc4308bc515e49
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TournamentViewerForm.cs">
