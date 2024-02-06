@@ -11,21 +11,21 @@ namespace TrackerLibrary
         /// <summary>
         /// First name of the contestant/participator
         /// </summary>
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         /// <summary>
         /// Last name of the contestant/participator
         /// </summary>
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         /// <summary>
         /// Email of the participator
         /// </summary>
-        public string EmailAddress { get; set; }
+        public string? EmailAddress { get; set; }
         
         /// <summary>
         /// PhoneNumber of the participator to send texts to
         /// </summary>
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
     }
 }

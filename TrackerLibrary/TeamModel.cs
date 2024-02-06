@@ -16,6 +16,6 @@ namespace TrackerLibrary
         /// <summary>
         /// The team name of the participating team
         /// </summary>
-        public string TeamName{ get; set; }
+        public string? TeamName{ get; set; }
     }
 }

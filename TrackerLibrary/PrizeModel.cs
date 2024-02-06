@@ -14,7 +14,7 @@ namespace TrackerLibrary
         public int PlaceNumber { get; set; }
 
         //The place name of the prize given (first, second, third, etc)
-        public string PlaceName { get; set; }
+        public string? PlaceName { get; set; }
 
         /// <summary>
         /// The prize amount the participant will recieve

@@ -1,4 +1,5 @@
-﻿namespace TrackerUI
+﻿
+namespace TrackerUI
 {
     partial class CreatePrizeForm
     {
@@ -72,7 +73,7 @@
             PlaceNumberLabel.Size = new Size(183, 37);
             PlaceNumberLabel.TabIndex = 26;
             PlaceNumberLabel.Text = "Place Number";
-            PlaceNumberLabel.Click += this.FirstNameLabel_Click;
+            PlaceNumberLabel.Click += GetFirstNameLabel_Click();
             // 
             // PlaceNameValue
             // 
@@ -182,6 +183,26 @@
             PerformLayout();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void teamOneScoreValue_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private EventHandler GetFirstNameLabel_Click()
+        {
+            return this.FirstNameLabel_Click;
+        }
+
         #endregion
         private Label CreatePrizeLabel;
         private TextBox PleaceNumberValue;
@@ -194,5 +215,7 @@
         private Label PrizePercentageLabel;
         private Label OrLabel;
         private Button CreatePrizeButton;
+
+        public EventHandler FirstNameLabel_Click { get; private set; }
     }
 }

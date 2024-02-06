@@ -11,7 +11,7 @@ namespace TrackerLibrary
         /// <summary>
         /// Name of the tournament
         /// </summary>
-        public string TournamentName { get; set; }
+        public string? TournamentName { get; set; }
 
         /// <summary>
         /// The entry fee for participants to buy in to

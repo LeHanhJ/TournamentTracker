@@ -16,7 +16,7 @@ namespace TrackerLibrary
         /// <summary>
         /// Represents the winner of the matchup
         /// </summary>
-        public TeamModel Winner { get; set; }
+        public TeamModel? Winner { get; set; }
 
         /// <summary>
         /// Represents what number round we are in, in the matchup
