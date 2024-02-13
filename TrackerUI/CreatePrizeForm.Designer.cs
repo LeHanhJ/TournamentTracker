@@ -73,7 +73,7 @@ namespace TrackerUI
             PlaceNumberLabel.Size = new Size(183, 37);
             PlaceNumberLabel.TabIndex = 26;
             PlaceNumberLabel.Text = "Place Number";
-            PlaceNumberLabel.Click += GetFirstNameLabel_Click();
+            PlaceNumberLabel.Click += GetFirstNameLabel_Click;
             // 
             // PlaceNameValue
             // 
@@ -181,6 +181,11 @@ namespace TrackerUI
             Load += CreatePrizeForm_Load;
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void GetFirstNameLabel_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void label1_Click(object sender, EventArgs e)
