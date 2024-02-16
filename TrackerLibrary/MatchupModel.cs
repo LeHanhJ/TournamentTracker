@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class MatchupModel
+    public class MatchupModel
     {
         /// <summary>
         /// Represents the number of entries for the matchup in the tournament

@@ -17,34 +17,16 @@ namespace TrackerUI
             InitializeComponent();
         }
 
-        private void TeamNameValue_TextChanged(object sender, EventArgs e)
+        private void CreatePrizeButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void CreatePrizeLabel_Click(object sender, EventArgs e)
+        private bool ValidateForm()
         {
+            bool output = true;
 
-        }
-
-        private void CreatePrizeForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TeamOneScoreValue_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
+            return output;
         }
     }
 }

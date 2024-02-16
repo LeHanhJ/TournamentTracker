@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class PrizeModel
+    public class PrizeModel
     {
+        /// <summary>
+        /// Unique identifier for the prize
+        /// </summary>
+        public int Id { get; set; }
+
+
         /// <summary>
         /// The place number of the prize given
         /// </summary>

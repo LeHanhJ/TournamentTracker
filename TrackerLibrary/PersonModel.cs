@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class PersonModel
+    public class PersonModel
     {
         /// <summary>
         /// First name of the contestant/participator

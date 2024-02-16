@@ -19,3 +19,7 @@ C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\ob
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AddNewMember.resources
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.CreateTournament.resources
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.TournamentDashboardForm.resources
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerLibrary.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerLibrary.pdb
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.csproj.CopyComplete
