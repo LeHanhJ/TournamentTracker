@@ -1,3 +1,5 @@
 # Tournament Tracker
 
-This app tracks teams in a tournament and keeps score. The tracker can calculate entry fees and dish out the prizes at the end of the tournament, giving first, second, and third place prizes.
+Hello there, thank you for viewing my project. This is made while following one of Tim Corey's instructional videos. It's my chance to truly and fully understand, and be able to build another application with the knowledge I've gained.
+
+Stil in progress...
