@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class PersonModel
     {
@@ -22,7 +22,7 @@ namespace TrackerLibrary
         /// Email of the participator
         /// </summary>
         public string? EmailAddress { get; set; }
-        
+
         /// <summary>
         /// PhoneNumber of the participator to send texts to
         /// </summary>

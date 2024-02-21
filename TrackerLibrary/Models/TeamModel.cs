@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class TeamModel
     {
@@ -16,6 +16,6 @@ namespace TrackerLibrary
         /// <summary>
         /// The team name of the participating team
         /// </summary>
-        public string? TeamName{ get; set; }
+        public string? TeamName { get; set; }
     }
 }

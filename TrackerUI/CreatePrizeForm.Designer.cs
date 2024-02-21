@@ -30,13 +30,13 @@ namespace TrackerUI
         private void InitializeComponent()
         {
             CreatePrizeLabel = new Label();
-            PleaceNumberValue = new TextBox();
+            PlaceNumberValue = new TextBox();
             PlaceNumberLabel = new Label();
             PlaceNameValue = new TextBox();
             PlaceNameLabel = new Label();
-            textBox2 = new TextBox();
+            PrizeAmountValue = new TextBox();
             PrizeAmountLabel = new Label();
-            textBox3 = new TextBox();
+            PrizePercentageValue = new TextBox();
             PrizePercentageLabel = new Label();
             OrLabel = new Label();
             CreatePrizeButton = new Button();
@@ -55,13 +55,13 @@ namespace TrackerUI
             CreatePrizeLabel.Text = "Create Prize:";
             CreatePrizeLabel.Click += CreatePrizeLabel_Click;
             // 
-            // PleaceNumberValue
+            // PlaceNumberValue
             // 
-            PleaceNumberValue.Location = new Point(294, 147);
-            PleaceNumberValue.Name = "PleaceNumberValue";
-            PleaceNumberValue.Size = new Size(234, 35);
-            PleaceNumberValue.TabIndex = 27;
-            PleaceNumberValue.TextChanged += teamOneScoreValue_TextChanged;
+            PlaceNumberValue.Location = new Point(294, 147);
+            PlaceNumberValue.Name = "PlaceNumberValue";
+            PlaceNumberValue.Size = new Size(234, 35);
+            PlaceNumberValue.TabIndex = 27;
+            PlaceNumberValue.TextChanged += teamOneScoreValue_TextChanged;
             // 
             // PlaceNumberLabel
             // 
@@ -81,7 +81,7 @@ namespace TrackerUI
             PlaceNameValue.Name = "PlaceNameValue";
             PlaceNameValue.Size = new Size(234, 35);
             PlaceNameValue.TabIndex = 29;
-            PlaceNameValue.TextChanged += textBox1_TextChanged;
+            PlaceNameValue.TextChanged += PlaceNameValue_TextChanged;
             // 
             // PlaceNameLabel
             // 
@@ -93,14 +93,16 @@ namespace TrackerUI
             PlaceNameLabel.Size = new Size(157, 37);
             PlaceNameLabel.TabIndex = 28;
             PlaceNameLabel.Text = "Place Name";
-            PlaceNameLabel.Click += label1_Click;
+            PlaceNameLabel.Click += PlaceNameLabel_Click;
             // 
-            // textBox2
+            // PrizeAmountValue
             // 
-            textBox2.Location = new Point(294, 291);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(234, 35);
-            textBox2.TabIndex = 31;
+            PrizeAmountValue.Location = new Point(294, 291);
+            PrizeAmountValue.Name = "PrizeAmountValue";
+            PrizeAmountValue.Size = new Size(234, 35);
+            PrizeAmountValue.TabIndex = 31;
+            PrizeAmountValue.Text = "0";
+            PrizeAmountValue.TextChanged += PrizeAmountValue_TextChanged;
             // 
             // PrizeAmountLabel
             // 
@@ -113,12 +115,13 @@ namespace TrackerUI
             PrizeAmountLabel.TabIndex = 30;
             PrizeAmountLabel.Text = "Prize Amount";
             // 
-            // textBox3
+            // PrizePercentageValue
             // 
-            textBox3.Location = new Point(294, 436);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(234, 35);
-            textBox3.TabIndex = 33;
+            PrizePercentageValue.Location = new Point(294, 436);
+            PrizePercentageValue.Name = "PrizePercentageValue";
+            PrizePercentageValue.Size = new Size(234, 35);
+            PrizePercentageValue.TabIndex = 33;
+            PrizePercentageValue.Text = "0";
             // 
             // PrizePercentageLabel
             // 
@@ -166,13 +169,13 @@ namespace TrackerUI
             ClientSize = new Size(647, 658);
             Controls.Add(CreatePrizeButton);
             Controls.Add(OrLabel);
-            Controls.Add(textBox3);
+            Controls.Add(PrizePercentageValue);
             Controls.Add(PrizePercentageLabel);
-            Controls.Add(textBox2);
+            Controls.Add(PrizeAmountValue);
             Controls.Add(PrizeAmountLabel);
             Controls.Add(PlaceNameValue);
             Controls.Add(PlaceNameLabel);
-            Controls.Add(PleaceNumberValue);
+            Controls.Add(PlaceNumberValue);
             Controls.Add(PlaceNumberLabel);
             Controls.Add(CreatePrizeLabel);
             Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -184,24 +187,29 @@ namespace TrackerUI
             PerformLayout();
         }
 
+        private void CreatePrizeForm_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void CreatePrizeLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void GetFirstNameLabel_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void PlaceNameLabel_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void PlaceNameValue_TextChanged(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
         }
 
         private void teamOneScoreValue_TextChanged(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
         }
 
         private EventHandler GetFirstNameLabel_Click()
@@ -211,13 +219,13 @@ namespace TrackerUI
 
         #endregion
         private Label CreatePrizeLabel;
-        private TextBox PleaceNumberValue;
+        private TextBox PlaceNumberValue;
         private Label PlaceNumberLabel;
         private TextBox PlaceNameValue;
         private Label PlaceNameLabel;
-        private TextBox textBox2;
+        private TextBox PrizeAmountValue;
         private Label PrizeAmountLabel;
-        private TextBox textBox3;
+        private TextBox PrizePercentageValue;
         private Label PrizePercentageLabel;
         private Label OrLabel;
         private Button CreatePrizeButton;

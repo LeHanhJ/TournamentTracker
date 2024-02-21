@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+xUYr9vDCNKDCVKCDqx2S7PNu56i7Y/63pfG7zmUhWii66zoMFtbAnUJ1QrF1tMLYoObLoOmYTMc53han0rr+w==",
+  "dgSpecHash": "gwpiUTBsfC9xQED5snG3ECGOKTKYrz+Zird38B8YRXeTAcmQyzBbMygXk4TN3uD3pfeu1Qz38BVsOW2U4xIavQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell\\Desktop\\Portfolio\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512"
+  ],
   "logs": []
 }

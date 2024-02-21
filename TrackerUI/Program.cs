@@ -1,3 +1,5 @@
+using TrackerLibrary;
+
 namespace TrackerUI
 {
     internal static class Program
@@ -12,11 +14,10 @@ namespace TrackerUI
             ApplicationConfiguration.Initialize();
 
             /// Initialize the database connections
-            TrackerLibrary.GlobalConfig.InitializeConnections(true, true);
-            /// Now that it's initialized, everyone can use the information
-            /// 
-            /// When CreatePrizeForm() loads, it will have access to the information
+            GlobalConfig.InitializeConnections(true, true);
             Application.Run(new CreatePrizeForm());
+            /// Now that it's initialized, everyone can use the information
+            /// When CreatePrizeForm() loads, it will have access to the information
 
             /// Application.Run(new TournamentDashboardForm());
 
