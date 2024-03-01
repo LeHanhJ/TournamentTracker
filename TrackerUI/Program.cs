@@ -14,7 +14,7 @@ namespace TrackerUI
             ApplicationConfiguration.Initialize();
 
             /// Initialize the database connections
-            GlobalConfig.InitializeConnections(true, true);
+            GlobalConfig.InitializeConnections(DatabaseType.Sql);
             Application.Run(new CreatePrizeForm());
             /// Now that it's initialized, everyone can use the information
             /// When CreatePrizeForm() loads, it will have access to the information

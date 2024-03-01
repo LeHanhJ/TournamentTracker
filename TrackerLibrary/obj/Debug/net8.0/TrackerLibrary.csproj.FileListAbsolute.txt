@@ -10,3 +10,4 @@ C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerLibra
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net8.0\refint\TrackerLibrary.dll
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net8.0\TrackerLibrary.pdb
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net8.0\ref\TrackerLibrary.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net8.0\TrackerLibrary.csproj.AssemblyReference.cache
