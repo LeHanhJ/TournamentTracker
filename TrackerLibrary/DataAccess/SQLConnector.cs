@@ -13,7 +13,10 @@ using TrackerLibrary.Models;
 namespace TrackerLibrary.DataAccess
 {
     public class SQLConnector : IDataConnection
+
     {
+        private const string db = "Tournaments";
+
         /// TODO - Make the CreatePrize method actually save to the database
         /// <summary>
         /// Saves a new prize to the database
@@ -26,7 +29,7 @@ namespace TrackerLibrary.DataAccess
 
             //  Making a new connection to the database; using statement so we can pass in one at a time and does not overload processing time
             // We are making a new SQL connection from GlobalConfig, and passing in Tournaments into CnnString() method that we've created
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Tournaments")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
                 var p = new DynamicParameters();
                 p.Add("@PlaceNumber", model.PlaceNumber);
@@ -49,5 +52,36 @@ namespace TrackerLibrary.DataAccess
             }
         }
 
+        public PersonModel CreatePerson(PersonModel model)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+            {
+                var p = new DynamicParameters();
+                p.Add("@FirstName", model.FirstName);
+                p.Add("@LastName", model.LastName);
+                p.Add("@EmailAddress", model.EmailAddress);
+                p.Add("@CellphoneNumber", model.PhoneNumber);
+                p.Add("@id", 0, DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute("dbo.spPeople_Insert", p, commandType: CommandType.StoredProcedure);
+
+                model.Id = p.Get<int>("@id");
+
+                return model;
+
+            }
+        }
+
+        public List<PersonModel> GetPerson_All()
+        {
+            List<PersonModel> output;
+
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+            {
+                output = connection.Query<PersonModel>("dbo.spPeople_GetAll").ToList();
+            }
+
+            return output;
+        }
     }
 }

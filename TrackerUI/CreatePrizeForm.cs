@@ -91,7 +91,7 @@ namespace TrackerUI
 
         private void PrizeAmountValue_TextChanged(object sender, EventArgs e)
         {
-
+      
         }
     }
 }

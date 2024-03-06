@@ -16,7 +16,6 @@ C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\ob
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.genruntimeconfig.cache
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\ref\TrackerUI.dll
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.CreatePrizeForm.resources
-C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.AddNewMember.resources
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.CreateTournament.resources
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.TournamentDashboardForm.resources
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\TrackerLibrary.dll
@@ -35,3 +34,4 @@ C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bi
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\dell\Desktop\Portfolio\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net8.0-windows\TrackerUI.CreateTeamForm.resources

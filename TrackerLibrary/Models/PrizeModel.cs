@@ -20,7 +20,7 @@ namespace TrackerLibrary
         public int PlaceNumber { get; set; }
 
         //The place name of the prize given (first, second, third, etc)
-        public string? PlaceName { get; set; }
+        public string PlaceName { get; set; }
 
         /// <summary>
         /// The prize amount the participant will recieve
@@ -35,7 +35,9 @@ namespace TrackerLibrary
 
 
         ///Constructor
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public PrizeModel()
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         {
 
         }
