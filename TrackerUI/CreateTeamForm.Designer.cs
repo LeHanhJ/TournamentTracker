@@ -45,7 +45,7 @@ namespace TrackerUI
             LastNameLabel = new Label();
             FirstNameValue = new TextBox();
             FirstNameLabel = new Label();
-            DeleteSelectedMemberButton = new Button();
+            RemoveSelectedMemberButton = new Button();
             CreateTeamButton = new Button();
             TeamMembersListBox = new ListBox();
             groupBox1.SuspendLayout();
@@ -56,7 +56,7 @@ namespace TrackerUI
             TeamMembersListBox.BorderStyle = BorderStyle.FixedSingle;
             TeamMembersListBox.FormattingEnabled = true;
             TeamMembersListBox.ItemHeight = 30;
-            TeamMembersListBox.Location = new Point(541, 133);
+            TeamMembersListBox.Location = new Point(553, 151);
             TeamMembersListBox.Name = "TeamMembersListBox";
             TeamMembersListBox.Size = new Size(409, 632);
             TeamMembersListBox.TabIndex = 25;
@@ -104,6 +104,7 @@ namespace TrackerUI
             AddMemberButton.TabIndex = 22;
             AddMemberButton.Text = "Add Member";
             AddMemberButton.UseVisualStyleBackColor = true;
+            AddMemberButton.Click += AddMemberButton_Click;
             // 
             // SelectTeamMemberDropdown
             // 
@@ -232,20 +233,20 @@ namespace TrackerUI
             FirstNameLabel.TabIndex = 24;
             FirstNameLabel.Text = "First Name";
             // 
-            // DeleteSelectedMemberButton
+            // RemoveSelectedMemberButton
             // 
-            DeleteSelectedMemberButton.FlatAppearance.BorderColor = Color.Silver;
-            DeleteSelectedMemberButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(102, 102, 102);
-            DeleteSelectedMemberButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(242, 242, 242);
-            DeleteSelectedMemberButton.FlatStyle = FlatStyle.Flat;
-            DeleteSelectedMemberButton.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            DeleteSelectedMemberButton.ForeColor = Color.FromArgb(51, 153, 255);
-            DeleteSelectedMemberButton.Location = new Point(994, 297);
-            DeleteSelectedMemberButton.Name = "DeleteSelectedMemberButton";
-            DeleteSelectedMemberButton.Size = new Size(112, 113);
-            DeleteSelectedMemberButton.TabIndex = 26;
-            DeleteSelectedMemberButton.Text = "Delete Selected";
-            DeleteSelectedMemberButton.UseVisualStyleBackColor = true;
+            RemoveSelectedMemberButton.FlatAppearance.BorderColor = Color.Silver;
+            RemoveSelectedMemberButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(102, 102, 102);
+            RemoveSelectedMemberButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(242, 242, 242);
+            RemoveSelectedMemberButton.FlatStyle = FlatStyle.Flat;
+            RemoveSelectedMemberButton.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            RemoveSelectedMemberButton.ForeColor = Color.FromArgb(51, 153, 255);
+            RemoveSelectedMemberButton.Location = new Point(994, 297);
+            RemoveSelectedMemberButton.Name = "RemoveSelectedMemberButton";
+            RemoveSelectedMemberButton.Size = new Size(112, 113);
+            RemoveSelectedMemberButton.TabIndex = 26;
+            RemoveSelectedMemberButton.Text = "Remove Selected";
+            RemoveSelectedMemberButton.UseVisualStyleBackColor = true;
             // 
             // CreateTeamButton
             // 
@@ -262,15 +263,14 @@ namespace TrackerUI
             CreateTeamButton.Text = "Create  Team";
             CreateTeamButton.UseVisualStyleBackColor = true;
             // 
-            // AddNewPerson
+            // CreateTeamForm
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1138, 929);
+            ClientSize = new Size(1116, 660);
             Controls.Add(CreateTeamButton);
-            Controls.Add(DeleteSelectedMemberButton);
-            Controls.Add(TeamMembersListBox);
+            Controls.Add(RemoveSelectedMemberButton);
             Controls.Add(groupBox1);
             Controls.Add(AddMemberButton);
             Controls.Add(SelectTeamMemberDropdown);
@@ -278,9 +278,10 @@ namespace TrackerUI
             Controls.Add(TeamNameValue);
             Controls.Add(TeamName);
             Controls.Add(CreateTeamLabel);
+            Controls.Add(TeamMembersListBox);
             Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(5, 6, 5, 6);
-            Name = "AddNewPerson";
+            Name = "CreateTeamForm";
             Text = "Create Team";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -290,8 +291,8 @@ namespace TrackerUI
 
 
         #endregion
-        
-         
+
+
         private TextBox TeamNameValue;
         private Label TeamName;
         private Label CreateTeamLabel;
@@ -308,7 +309,7 @@ namespace TrackerUI
         private TextBox CellNumberValue;
         private Label PhoneNumberLabel;
         private Button CreateMemberButton;
-        private Button DeleteSelectedMemberButton;
+        private Button RemoveSelectedMemberButton;
         private Button CreateTeamButton;
         private ListBox TeamMembersListBox;
     }
